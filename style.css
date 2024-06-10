@@ -44,6 +44,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
+
 }
 
 .violet {
@@ -114,18 +115,24 @@ main .testimonial {
 
 main .violet {
   background: var(--Moderate-Violet);
+  box-shadow: 0  10px 10px rgba(0 , 0 , 0 ,0.1);
+
 }
 
 main .white-1 {
   background: var(--White);
+  box-shadow: 0  10px 10px rgba(0 , 0 , 0 ,0.1);
+
 }
 
 .white-1 h3, .white-2 h3 {
   color: var(--Very-Dark-Blackish-Blue);
+
 }
 
 .white-1 p, .white-2 p {
   color: var(--Light-Gray);
+
 }
 
 .white-1 .first-paragraph,
@@ -140,14 +147,20 @@ main .white-1 {
 
 main .white-2 {
   background: var(--White);
+  box-shadow: 0  10px 10px rgba(0 , 0 , 0 ,0.1);
+
 }
 
 main .dark-gray {
   background: var(--Very-Dark-Grayish-Blue);
+  box-shadow: 0  10px 10px rgba(0 , 0 , 0 ,0.1);
+
 }
 
 main .dark-black {
   background: var(--Very-Dark-Blackish-Blue);
+  box-shadow: 0  10px 10px rgba(0 , 0 , 0 ,0.1);
+
 }
 
 @media only screen and (max-width: 475px) {
